@@ -1,0 +1,30 @@
+﻿Build started 30/03/2016 18:15:36.
+     1>Project "F:\Junk\GLUT\FreeGLUT\FreeGLUT\FreeGLUT.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Cube.cpp FreeGLUT.cpp GLUTCallbacks.cpp Main.cpp MeshLoader.cpp Pyramid.cpp SceneObject.cpp Texture2D.cpp
+         Texture2D.cpp
+         SceneObject.cpp
+         Pyramid.cpp
+         MeshLoader.cpp
+         Main.cpp
+         GLUTCallbacks.cpp
+         FreeGLUT.cpp
+     1>f:\junk\glut\freeglut\freeglut\freeglut.cpp(12): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>f:\junk\glut\freeglut\freeglut\freeglut.cpp(48): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Cube.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Junk\GLUT\FreeGLUT\Debug\FreeGLUT.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Junk\GLUT\FreeGLUT\Debug\FreeGLUT.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Junk\GLUT\FreeGLUT\Debug\FreeGLUT.lib" /MACHINE:X86 Debug\Cube.obj
+         Debug\FreeGLUT.obj
+         Debug\GLUTCallbacks.obj
+         Debug\Main.obj
+         Debug\MeshLoader.obj
+         Debug\Pyramid.obj
+         Debug\SceneObject.obj
+         Debug\Texture2D.obj
+         FreeGLUT.vcxproj -> F:\Junk\GLUT\FreeGLUT\Debug\FreeGLUT.exe
+     1>Done Building Project "F:\Junk\GLUT\FreeGLUT\FreeGLUT\FreeGLUT.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:01.11
